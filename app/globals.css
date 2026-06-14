@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7faf6;
+  color: #17231b;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.page-shell {
+  min-height: 100vh;
+  padding: 18px 16px 92px;
+}
+
+@media (min-width: 768px) {
+  .page-shell {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+}
